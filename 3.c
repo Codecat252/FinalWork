@@ -6,11 +6,11 @@ int main() {
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 
-	int a, b, c, d, max = 0;
+	int a1, b, c, d, max = 0;
 	printf("Введите 4 числа: ");
-	scanf("%d%d%d%d", &a, &b, &c, &d);
-	if (a > max && a % 2 == 0)
-		max = a;
+	scanf("%d%d%d%d", &a1, &b, &c, &d);
+	if (a1 > max && a1 % 2 == 0)
+		max = a1;
 	if (b > max && b % 2 == 0)
 		max = b;
 	if (c > max && c % 2 == 0)
