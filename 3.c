@@ -15,6 +15,8 @@ int main() {
 	scanf("%d%d%d%d", &a1, &b, &c, &d);
 	if (a1 > max && a1 % 2 == 0)
 		max = a1;
+	if (a1 > 0)
+		printf("a1 > 0!!!!!!!!"); //Проверка на положительность
 	if (b > max && b % 2 == 0)
 		max = b;
 	if (c > max && c % 2 == 0)
